@@ -1,0 +1,30 @@
+{
+    "name": "rkarkut/rest_client_package",
+    "description": "Rest Client package for Composer",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Radosław Karkut",
+            "email": "kontakt@rkarkut.pl",
+            "homepage": "https://github.com/slummer87"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "gamez/typed-collection": "^2.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unit\\": "tests/Unit"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
